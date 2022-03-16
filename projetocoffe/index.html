@@ -1,0 +1,445 @@
+<!-- Site feito em apenas um dia, utilizando um tutorial do youtube, feito para um comercio de venda de cafes -->
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Felype Nunes de Souza">
+    <meta name="keywords" content="cafe, bebida, construção de site">
+    <meta name="description" content="Site totalmente responsivo sobre cafe, feito atravez de um tutorial">
+    <title>Site totalmente responsivo sobre cafe</title>
+    
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+<header class="header">
+
+    <a href="#" class="logo">
+        <img src="img/logo.png" alt="">
+    </a>
+
+    <nav class="navbar">
+        <a href="#home">home</a>
+        <a href="#sobre">sobre</a>
+        <a href="#cardapio">cardapio</a>
+        <a href="#produtos">produtos</a>
+        <a href="#avaliações">avaliações</a>
+        <a href="#contatos">contatos</a>
+        <a href="#blogs">blogs</a>
+        
+    </nav>
+
+ 
+      <div class="icons">
+        <div class="fas fa-search" id="search-btn"></div>
+        <div class="fas fa-shopping-cart" id="cart-btn"></div>
+        <div class="fas fa-bars" id="menu-btn"></div>
+    </div>
+
+    <div class="search-form">
+        <input type="search" id="search-box" placeholder="pesquise aqui...">
+        <label for="search-box" class="fas fa-search"></label>
+    </div>
+
+    <div class="cart-items-container">
+        <div class="cart-item">
+            <span class="fas fa-times"></span>
+            <img src="img/cart-item-1.png" alt="">
+            <div class="content">
+                <h3>Item 01 do carrinho</h3>
+                <div class="Preço">R$13.50/-</div>
+            </div>
+        </div>
+        <div class="cart-item">
+            <span class="fas fa-times"></span>
+            <img src="img/cart-item-2.png" alt="">
+            <div class="content">
+                <h3>Item 02 do Carrinho</h3>
+                <div class="Preço">R$15.99/-</div>
+            </div>
+        </div>
+        <div class="cart-item">
+            <span class="fas fa-times"></span>
+            <img src="img/cart-item-3.png" alt="">
+            <div class="content">
+                <h3>Item 03 do Carrinho</h3>
+                <div class="Preço">R$10.00/-</div>
+            </div>
+        </div>
+        <div class="cart-item">
+            <span class="fas fa-times"></span>
+            <img src="img/cart-item-4.png" alt="">
+            <div class="content">
+                <h3>item 04 do carrinho</h3>
+                <div class="Preço">R$18.99/-</div>
+            </div>
+        </div>
+    <a href="#" class="btn">Finalizar Compra</a>
+    
+</header>
+
+<!-- Final Header -->
+
+
+<!-- Inicio da Seção home -->
+
+<section class="home" id="home">
+
+    <div class="content">
+        <h3>Café refrescante da tarde</h3>
+        <p>Aquele cafezinho quentinho para tomar atarde junto das pessoas que você ama</p>
+        <a href="#" class="btn">Compre o seu agora</a>
+    </div>
+
+   
+
+
+</section>
+
+
+<!-- Final da Seção Home -->
+
+<!-- Inicio da Seção Sobre -->
+
+ <section class="sobre" id="sobre">
+
+    <h1 class="heading"> <span>Sobre</span> Nós </h1>
+
+    <div class="row">
+
+        <div class="image">
+            <img src="img/about-img.jpeg" alt="">
+        </div>
+
+        <div class="content">
+            <h3>O que Faz o nosso Café ser tão especial?</h3>
+            <p>Primeiramente, o café especial em grão é torrado da forma mais clara, preservando assim, as notas sensoriais do fruto.</p>
+            <p>No caso dos cafés convencionais de mercado, os resíduos são torrados de forma excessiva na intenção de que o consumidor não perceba as impurezas.</p>
+            <a href="#" class="btn">Ler Mais</a>
+        </div>
+
+
+    </div>
+
+    <div class="image">
+
+    </div>
+
+ </section>
+
+<!-- Fim da Seção Sobre -->
+
+<!-- Inicio da Seção menu -->
+
+ <section class="menu" id="menu">
+
+    <h1 class="heading"> nosso <span>menu</span></h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <img src="img/menu-1.png" alt="">
+            <h3>Gostoso & saudável</h3>
+            <div class="price">R$12.99 <span>18.00</span></div>
+            <a href="#" class="btn">adicionar ao carrinho</a>
+
+        </div>
+
+        <div class="box">
+            <img src="img/menu-2.png" alt="">
+            <h3>delicioso & doce</h3>
+            <div class="price">R$15.99 <span>20.99</span></div>
+            <a href="#" class="btn">adicionar ao carrinho</a>
+
+        </div>
+
+        <div class="box">
+            <img src="img/menu-3.png" alt="">
+            <h3>Café preto</h3>
+            <div class="price">R$10.99 <span>13.99</span></div>
+            <a href="#" class="btn">adicionar ao carrinho</a>
+
+        </div>
+
+        <div class="box">
+            <img src="img/menu-4.png" alt="">
+            <h3>Café sem cafeina</h3>
+            <div class="price">R$20.00 <span>24.99</span></div>
+            <a href="#" class="btn">adicionar ao carrinho</a>
+
+        </div>
+
+        <div class="box">
+            <img src="img/menu-5.png" alt="">
+            <h3>Café para diabeticos</h3>
+            <div class="price">R$4.99 <span>8.99</span></div>
+            <a href="#" class="btn">adicionar ao carrinho</a>
+
+        </div>
+
+        <div class="box">
+            <img src="img/menu-6.png" alt="">
+            <h3>cappuccino</h3>
+            <div class="price">R$13.50 <span>17.99</span></div>
+            <a href="#" class="btn">adicionar ao carrinho</a>
+
+        </div>
+
+    </div>
+
+ </section>
+
+<!-- Fim da Seção menu -->
+
+<section class="produtos" id="produtos">
+
+    <h1 class="heading">Nossos  <span>produtos</span> </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <div class="icons">
+                <a href="#" class="fas fa-shopping-cart"></a>
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+            </div>
+            <div class="image">
+                <img src="img/product-1.png" alt="">
+            </div>
+            <div class="content">
+                <h3>Café da Nicarágua</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <div class="price">R$30.00 <span>$55.99</span></div>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="icons">
+                <a href="#" class="fas fa-shopping-cart"></a>
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+            </div>
+            <div class="image">
+                <img src="img/product-2.png" alt="">
+            </div>
+            <div class="content">
+                <h3>Café Colombiano</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <div class="price">R$37.99 <span>$60.00</span></div>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="icons">
+                <a href="#" class="fas fa-shopping-cart"></a>
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+            </div>
+            <div class="image">
+                <img src="img/product-3.png" alt="">
+            </div>
+            <div class="content">
+                <h3>Café Peruano</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <div class="price">R$45.50 <span>$78.50</span></div>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- Inicio da Seção de Avaliações -->
+
+    <section class="avaliação" id="avaliação">
+
+        <h1 class="heading">Avaliações <span></span></h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <img src="img/quote-img.png" alt="" class="quote">
+                <p>Foi o melhor Café que já tomei na minha vida, sem defeito algum, adoraria poder tomar todos os dias, a entrega foi rapida e facil.</p>
+                <img src="img/pic-1.png" class="user" alt="">
+                <h3>Jhonatam Bezerra</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+            </div>
+
+        
+
+        <div class="box">
+            <img src="img/quote-img.png" alt="" class="quote">
+            <p>Ultimo café, o unico problema são os preços elevados, adoraria que tivesse descontos ou cupons.</p>
+            <img src="img/pic-2.png" class="user" alt="">
+            <h3>Alexandra da Cruz</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="img/quote-img.png" alt="" class="quote">
+            <p>exelente, entrega rapida, eu irei virar comprador a assíduo desses cafés.</p>
+            <img src="img/pic-3.png" class="user" alt="">
+            <h3>Fernando da Silva</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+        </div>
+    </div>
+    </section>
+
+
+<!-- Fim da Seção de avaliações -->
+
+<!-- Inicio da Seção de Contatos -->
+
+<section class="contatos" id="contatos">
+
+    <h1 class="heading"><span>Entre em</span> Contato</h1>
+
+    <div class="row">
+        <iframe class="maps" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.623313969457!2d-46.31592568509941!3d-23.546046984690555!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce7b7735747839%3A0x9bf9e9a44165998b!2sR%26E%20COFFEE!5e0!3m2!1spt-BR!2sbr!4v1646600590868!5m2!1spt-BR!2sbr" allowfullscreen="" loading="lazy"></iframe>
+
+        <form action="">
+            <h3>Entre em Contato</h3>
+            <div class="inputBox">
+                <span class="fas fa-user"></span>
+                <input type="text" placeholder="name">
+            </div>
+            <div class="inputBox">
+                <span class="fas fa-envelope"></span>
+                <input type="email" placeholder="email">
+            </div>
+            <div class="inputBox">
+                <span class="fas fa-phone"></span>
+                <input type="number" placeholder="number">
+            </div>
+            <input type="submit" value="Enviar" class="btn">
+        </form>
+
+
+
+    </div>
+
+</section>
+
+<!-- Fim da Seção de Contatos -->
+
+<!-- Inicio Seção Blogs -->
+
+    <section class="blogs" id="blogs">
+
+        <h1 class="heading">Nossos <span> blogs </span></h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <div class="image">
+                    <img src="img/blog-1.jpeg" alt="">
+                </div>
+                <div class="content">
+                    <a href="#" class="title">O melhor torrador do mundo</a>
+                    <span>por Felype / 30 de Janeiro, 2022</span>
+                    <p>Foi o físico e matemático inglês James Maxwell que comprovou que a luz se propaga na forma de onda eletromagnética, ainda no Século XIX. Essa afirmação foi fundamental para estabelecer base para correlacionar as cores e suas respectivas características ondulatórias, definindo-se, inclusive a quantidade de energia associada...</p>
+                    <a href="#" class="btn">Ler mais</a>
+                </div>
+            </div>
+            <div class="box">
+                <div class="image">
+                    <img src="img/blog-2.jpeg" alt="">
+                </div>
+                <div class="content">
+                    <a href="#" class="title">O espresso e os 3 leites</a>
+                    <span>por Felype / 15 de Janeiro, 2022</span>
+                    <p>O Espresso é o serviço de café que envolve a mais complexa forma de preparo, pois envolve o uso de um moinho (sim, moagem na hora sempre!!!), o ajuste no porta-filtro, a regulagem da máquina de espresso e, finalmente, o controle da extração. 
+                        Se você observar, cada fabricante tem sua medida de diâmetro do porta-filtro, que, por sua vez, obriga a um tamper apropriado, garantindo uma compactação adequada...</p>
+                    <a href="#" class="btn">Ler mais</a>
+                </div>
+            </div>
+            <div class="box">
+                <div class="image">
+                    <img src="img/blog-3.jpeg" alt="">
+                </div>
+                <div class="content">
+                    <a href="#" class="title">Sobre sementes e grãos</a>
+                    <span>por Felype / 28 de dezembro, 2021</span>
+                    <p>O final dos anos 1960 e o início dos 1970 são sempre lembrados como aqueles em que as grandes transformações no campo das idéias e conceitos aconteceram, mudando definitivamente a forma de vermos o mundo. Uma revolução cuja bandeira era formada pela dupla Paz & Amor e que recebeu o nome de Flower Power, foi a retórica adotada pelos jovens para fazer frente às guerras que se seguiam, sendo a Guerra do Vietnan a mais importante...</p>
+                    <a href="#" class="btn">Ler mais</a>
+                </div>
+            </div>
+        </div>
+
+
+    </section>
+
+<!-- Final Seção Blogs -->
+
+<!-- Inicio Seção footer -->
+
+    <section class="footer">
+
+        <div class="share">
+            <a href="#" class="fab fa-facebook-f"></a>
+        <a href="#" class="fab fa-twitter"></a>
+        <a href="#" class="fab fa-instagram"></a>
+        <a href="#" class="fab fa-linkedin"></a>
+        <a href="#" class="fab fa-pinterest"></a>
+        </div>
+        <div class="links">
+            <a href="#">home</a>
+            <a href="#">sobre</a>
+            <a href="#">menu</a>
+            <a href="#">produtos</a>
+            <a href="#">avaliações</a>
+            <a href="#">contatos</a>
+            <a href="#">blogs</a>
+        </div>
+
+        <div class="credit">Criado por <span>Felype N.S</span> | todos direitos reservados</div>
+
+    </section>
+
+<!-- Fim seção footer -->
+
+
+<script src="js/script.js"></script>
+
+</body>
+</html>
