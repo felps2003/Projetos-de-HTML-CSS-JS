@@ -1,0 +1,44 @@
+Colocar uma boa descrição em todas as fotos
+
+
+ <!-- Inserir todas as meta tags --></head><>   <h1>Cidade de Osasco</h1>   
+ 
+ <!-- Historico da Cidade -->   
+ <!-- Pontos turisticos -->   
+ <!-- Prefeitos -->   
+
+
+
+<a href=index.html> voltar a pagina principal</a>
+    <img src="img/foto_cidades/cidade_Gua.jpg" alt="">
+    <p>Vamos entender um pouco mais sobre a grande cidade de Guarulhos? É so continuar lendo.</p>
+    <hr>
+    <h2>Historico da Cidade</h2>
+    <pre></pre>
+    <hr>
+    <h3>Pontos Turisticos</h3>
+    <pre>
+    </pre>
+    <h3>Prefeitos da Cidade</h3>
+    <pre>
+    </pre>
+    <h4>Linha do Tempo</h4>
+    <pre>Entre 1894 e 2021, mais ou menos 38 pessoas assumirão a prefeitura de Guarulhos
+    sendo 48 prefeitos titulares.</pre>
+    <hr>
+    </pre>
+    <h5>Dados Tecnicos</h5>
+    <pre>Prefeito: Gustavo Henric Costa (2021)
+    Gentílico: guarulhense
+    Área Territorial: 318,675 km² (2020)
+    População estimada: 1.404.694 pessoas (2021)
+    Densidade demográfica 3.834,51 hab/km² (2021)
+    Escolaridade (6-14 anos): 97,1% (2010)
+    IDHM: 0,763 (2010)
+    Mortalidade infantil: 12,45 óbitos por mil nascidos vivos (2019)
+    Receitas realizadas: R$96.822,47 (×1000) (2019)
+    Despesas empenhadas: R$4.400.588,78 (×1000) (2019)
+    PIB per capita: R$47.249,21 (2019)
+    </pre>
+    </body>
+    </html>
